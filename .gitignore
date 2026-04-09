@@ -1,2 +1,5 @@
+node_modules/
+.education/
+.github
 .idea
-.education
+.DS_Store
