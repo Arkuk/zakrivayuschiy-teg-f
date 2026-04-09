@@ -87,7 +87,6 @@
 
 @supports (text-stroke: 1px var(--sub-color)) or
   (-webkit-text-stroke: 1px var(--sub-color)) {
-
   .card__label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--sub-color);
@@ -187,16 +186,11 @@
 }
 
 .save-button {
+  margin: 50px auto 100px;
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 17px 20px;
-}
-
-.footer {
-  margin: 50px auto 100px;
-  display: flex;
-  justify-content: center;
 }
 
 .dialog {
@@ -273,6 +267,9 @@
 }
 
 @media (width <= 375px) {
+  .header {
+    padding-block: 122px;
+  }
 
   .save-button {
     flex-direction: column;
