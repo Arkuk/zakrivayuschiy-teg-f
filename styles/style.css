@@ -236,6 +236,7 @@
   padding-block: 12.5px;
   font-size: 0.875rem;
   line-height: 0.9;
+  text-transform: uppercase;
 }
 
 .card__image--low-saturate {
